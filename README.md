@@ -22,16 +22,16 @@ A PowerShell script to automate creating user accounts in Active Directory (AD),
 
 Clone the repository or download the script to your local machine:
 
-    ```
-    git clone https://github.com/MrEndAFK/Active-Directory-User-Onboarding-Script.git
-    ```
+```
+git clone https://github.com/MrEndAFK/Active-Directory-User-Onboarding-Script.git
+```
 
 **2️⃣ Run the Script**
 Open PowerShell with administrative privileges, navigate to the script location, and execute:
 
-    ```
-    .\UserOnboardingScript.ps1
-    ```
+```
+.\UserOnboardingScript.ps1
+```
 
 **3️⃣ Provide Input**
 The script will prompt you to enter:
@@ -48,14 +48,14 @@ The script will prompt you to enter:
 -Logs will be saved to C:\UserCreationLogs\log.txt.
 Example Output:
 
-    ```
-    Enter First Name: John  
-    Enter Last Name: Doe  
-    Enter Department: IT
-    User john.doe created successfully in department IT  
-    Added john.doe to IT-Group  
-    Logged actions to C:\UserCreationLogs\log.txt  
-    ```
+```
+Enter First Name: John  
+Enter Last Name: Doe  
+Enter Department: IT
+User john.doe created successfully in department IT  
+Added john.doe to IT-Group  
+Logged actions to C:\UserCreationLogs\log.txt  
+```
 
 **Optional Features**
 Group Membership: Automatically adds users to groups like IT-Group or HR-Group based on department.
@@ -64,13 +64,13 @@ Logging: Every action is logged with details like username, department, and time
 
 **Log File Details**
 Logs are saved at:
-    ```
-    C:\UserCreationLogs\log.txt
-    ```
+```
+C:\UserCreationLogs\log.txt
+```
 Example
-    ```
-    john.doe | IT | 2024-12-01 14:35:22
-    ```
+```
+john.doe | IT | 2024-12-01 14:35:22
+```
 
 # Simple but works! 
 # I am working on a small GUI with user input fields using PowerShell  Forms, so non-techies can run it easily.
