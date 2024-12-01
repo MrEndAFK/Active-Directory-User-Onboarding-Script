@@ -21,11 +21,14 @@ A PowerShell script to automate creating user accounts in Active Directory (AD),
 **1️⃣ Clone/Download the Script**
 
 Clone the repository or download the script to your local machine:
+
     ```
-    https://github.com/MrEndAFK/Active-Directory-User-Onboarding-Script.git
+    git clone https://github.com/MrEndAFK/Active-Directory-User-Onboarding-Script.git
     ```
+
 **2️⃣ Run the Script**
 Open PowerShell with administrative privileges, navigate to the script location, and execute:
+
     ```
     .\UserOnboardingScript.ps1
     ```
@@ -34,7 +37,9 @@ Open PowerShell with administrative privileges, navigate to the script location,
 The script will prompt you to enter:
 
 *First Name: (e.g., John)*
+
 *Last Name: (e.g., Doe)*
+
 *Department: (Optional, for assigning group membership)*
 
 **4️⃣ Check Results**
@@ -42,11 +47,11 @@ The script will prompt you to enter:
 -Errors (if any) will also be displayed.
 -Logs will be saved to C:\UserCreationLogs\log.txt.
 Example Output:
+
     ```
     Enter First Name: John  
     Enter Last Name: Doe  
-    Enter Department: IT  
-
+    Enter Department: IT
     User john.doe created successfully in department IT  
     Added john.doe to IT-Group  
     Logged actions to C:\UserCreationLogs\log.txt  
