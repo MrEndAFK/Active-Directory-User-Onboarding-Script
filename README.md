@@ -6,9 +6,9 @@ A PowerShell script to automate creating user accounts in Active Directory (AD),
 
 **🧑‍💻 User Creation**: Automates creating new AD users with attributes like username, department, and email.
 
-**🛡️ Group Membership (Optional)**: Automatically assigns users to a department-specific AD group (if it exists).
-
 **📜 Action Logging**: Logs all performed actions (e.g., user creation, group addition) for auditing purposes.
+
+**🔑Random Password Generation**: For easier automation
 
 # Prerequisites
 ✅ Active Directory module installed in PowerShell.
@@ -30,7 +30,7 @@ git clone https://github.com/MrEndAFK/Active-Directory-User-Onboarding-Script.gi
 Open PowerShell with administrative privileges, navigate to the script location, and execute:
 
 ```
-.\UserOnboardingScript.ps1
+.\start.ps1
 ```
 
 **3️⃣ Provide Input**
@@ -58,7 +58,6 @@ Logged actions to C:\UserCreationLogs\log.txt
 ```
 
 **Optional Features**
-Group Membership: Automatically adds users to groups like IT-Group or HR-Group based on department.
 
 Logging: Every action is logged with details like username, department, and timestamp.
 
